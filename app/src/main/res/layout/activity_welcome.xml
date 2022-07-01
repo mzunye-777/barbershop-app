@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".welcome">
+
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="30sp"
+        android:id="@+id/btnMEN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MEN"
+        android:text="MEN HAIRSTYLE" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="30sp"
+        android:id="@+id/btnWOMEN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="WOMEN"
+        android:text="WOMEN HAIRSTYLE" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="30sp"
+        android:id="@+id/btnCHILDREN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="CHILDREN"
+        android:text="CHILDREN HAIRSTYLE" />
+
+</LinearLayout>
